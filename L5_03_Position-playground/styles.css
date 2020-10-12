@@ -1,0 +1,55 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body {
+    margin: 0px;
+}
+
+.vewport:nth-child(1) {
+    background: linear-gradient(90deg, rgba(16,59,212,1) 24%, rgba(148,233,216,1) 83%);
+    height: 100vh;
+}
+
+.vewport:nth-child(2) {
+    background: linear-gradient(90deg, rgba(169,51,120,1) 31%, rgba(210,129,21,1) 76%);
+    height: 100vh;
+}
+
+.card:nth-child(1) {
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+
+.card img{
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.35);
+}
+
+.card:nth-child(1) i {
+    color: white;
+    position: absolute;
+    top: 88%;
+    left: 92%;
+}
+
+.vewport:nth-child(2) .card {
+    display: block;
+    position: absolute;
+    top: 109%;
+    left: 35%;
+}
+
+i:nth-child(1) {
+    color: white;
+    position: absolute;
+    top: 58%;
+    left: 63%;
+}
+
+.vewport:nth-child(2) i {
+    color: white;
+    position: absolute;
+    top: 94%;
+    left: 92%;
+}
